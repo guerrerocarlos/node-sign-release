@@ -1,0 +1,33 @@
+{
+  "name": "node-sign-release",
+  "version": "0.0.1",
+  "description": "Generates signatures for new releases based on private and public keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:guerrerocarlos/node-sign-release.git"
+  },
+  "bin": {
+    "sign-release": "bin/sign-release"
+  },
+  "keywords": [
+    "private",
+    "keys",
+    "DSA-SHA1",
+    "PEM"
+  ],
+  "author": "Carlos Guerrero <guerrerocarlos@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guerrerocarlos/node-sign-release/issues"
+  },
+  "homepage": "https://github.com/guerrerocarlos/node-sign-release",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "fs": "0.0.2",
+    "keypair": "^1.0.0"
+  }
+}
