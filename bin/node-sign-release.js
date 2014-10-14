@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var crypto = require("crypto")
 var fs = require("fs")
 var keypair = require("keypair")
