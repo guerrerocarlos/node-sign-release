@@ -1,6 +1,6 @@
 {
   "name": "node-sign-release",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Generates signatures for new releases based on private and public keys",
   "main": "index.js",
   "scripts": {
